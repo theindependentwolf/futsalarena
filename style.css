@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    max-width: 80%; /* Adjust as needed */
+    height: auto;
+}
+
+.coming-soon {
+    font-size: 2em; /* Adjust size as needed */
+    margin-top: 10px; /* Spacing between logo and text */
+    color: white;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .logo {
+        max-width: 90%;
+    }
+    .coming-soon {
+        font-size: 1.5em;
+    }
+}
